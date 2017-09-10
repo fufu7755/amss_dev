@@ -1,0 +1,72 @@
+.tableHome {
+  background-image: url(../images/homepage.jpg) !important;
+}
+
+.tabletLogo {
+  margin-top: 30px;
+}
+
+.tabletLogo img {
+  width: 300px;
+}
+
+.tabletMain header {
+  background: #000 !important;
+}
+
+.tabletMain .mobileTop {
+  min-height: 360px;
+}
+
+.mobileMain.tabletMain .icon-item {
+  margin: 3px;
+  padding: 0 10px;
+}
+
+.mobileMain.tabletMain .topNav li {
+  font-size: 16px;
+  line-height: normal;
+  height: 50px;
+}
+
+.mobileMain.tabletMain .tableSection table th p {
+  font-size: 14px;
+}
+
+.mobileMain.tabletMain .tableSection table th h4 {
+  font-size: 16px;
+}
+
+.mobileMain.tabletMain .tableSection table td img {
+  height: 60px;
+}
+
+.mobileMain.tabletMain .tableSection table td p {
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.tabletMain .MoblieMonitorSection {
+  max-width: 540px;
+  background-size: 520px;
+  background-position: 10px 10px;
+}
+
+.tabletMain .MoblieMonitorSection .monitorItem {
+  width: 100px;
+  line-height: 100px;
+  height: 100px;
+  font-size: 14px;
+}
+
+.tabletMain .MobileSection h2 {
+  font-size: 16px;
+}
+
+.tabletMain .MobileSection p {
+  font-size: 14px;
+}
+
+.tabletMain .mobileContactContent p {
+  font-size: 14px;
+}

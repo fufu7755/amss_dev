@@ -1,0 +1,420 @@
+html{
+    font-size: 50px;
+}
+
+#mobileheader{
+    flex: 1;
+    background: #000;
+}
+
+#mobileheader header{
+  text-align: center;
+}
+
+#mobileheader header span{
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    padding: 11px 0;
+}
+
+#mobileheader i{
+    font-size: 0.5rem;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+    color:#fff;
+}
+
+#mobileheader .anticon-bars {
+  float: left;
+  margin-left: 0.3rem;
+}
+
+#mobileheader .anticon-home {
+  float: right;
+  margin-right: 0.3rem;
+}
+
+#mobileheader ul li{
+    font-size: 30px;
+}
+
+#mobileheader .slick-list img{
+    height: 220px;
+    width:100%;
+}
+
+#mobileDetailsContainer .title,.article-title .title {
+    font-size: 0.44rem !important;
+    line-height: 1.4em
+}
+
+#mobileDetailsContainer .article-src-time {
+    font-size: 0.3rem !important;
+}
+
+#mobileDetailsContainer .article-content .txt {
+    font-size: 0.36rem;
+}
+#mobileDetailsContainer .ant-row{
+    margin-top: 20px;
+}
+
+#mobileHome {
+  background-image: url(../images/mobile_homepage2.jpg);
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.mobileLogo img {
+  width: 240px;
+  height: auto;
+}
+
+#mobileHome .hometitle {
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  top: auto;
+  margin-top: 0;
+}
+
+#mobileHome .homeLinks {
+  width: 120px;
+  height: 108px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+#mobileHome .homeLinks h3 {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+#mobileHome .homeLinks p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.ant-modal {
+  margin: 0;
+  top: 0;
+  background-color: #000;
+}
+
+.ant-modal-content {
+    position: relative;
+    background-color:inherit;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    text-align: center;
+}
+
+.ant-modal-content .mobileLogo {
+  width: 120px;
+  height: 120px;
+  display: inline;
+}
+
+.mobile-nav {
+  margin-top: 30px;
+}
+
+.mobile-nav li {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+.mobileTop h1 {
+  bottom: 20px;
+  text-align: center;
+  position: absolute;
+  font-size: 16px;
+}
+
+.mobile-nav li a {
+  display: inline-block;
+  font-size: 20px;
+  border-bottom: 1px solid #7d7d7d;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.mobile-nav li a:hover {
+  color: #b61d22;
+}
+
+.mobile-nav li a.is-active {
+  color: #b61d22;
+}
+
+.mobileTop {
+  min-height: 240px;
+  position: relative;
+}
+
+.ant-modal-close-x:before {
+  color: #fff;
+  font-size: 30px;
+}
+
+.ant-modal-header {
+  padding: 13px 16px;
+  border-radius: 0;
+  background: #000;
+  color: #fff;
+  border-bottom: none;
+}
+
+#mobileAbout .mobileTop {
+  background-image: url('../images/mobile_aboutHeader.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#mobileAmss1 .mobileTop {
+  background-image: url('../images/mobileAmss1Header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#mobileAmss2 .mobileTop {
+  background-image: url('../images/mobileAmss2Header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#mobileAmss3 .mobileTop {
+  background-image: url('../images/amss3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#mobileAmss4 .mobileTop {
+  background-image: url('../images/amss4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#mobileAmss5 .mobileTop {
+  background-image: url('../images/amss5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#mobileAmss6 .mobileTop {
+  background-image: url('../images/amss6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#mobileContact .mobileTop {
+  background-image: url('../images/mobileContact.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mobileMain .aboutVideo {
+  padding: 20px 0;
+}
+
+.mobileMain .aboutSection {
+  padding: 20px;
+}
+
+.mobileMain .aboutSection h2 {
+  font-size: 14px;
+}
+
+.mobileMain img {
+  max-width: 100%;
+}
+
+.mobileMain .topSection {
+  padding: 30px 0;
+}
+
+.mobileMain .topSection .container {
+  max-width: 100%;
+}
+
+.mobileMain header {
+  background: #000 !important;
+}
+
+.mobileMain .topNav {
+  margin: 0;
+  background-size: contain;
+  margin-bottom: 10px;
+}
+
+.mobileMain .topNav li {
+  height: 40px;
+  font-size: 12px;
+}
+
+.mobileMain .icon-item {
+  margin: 1px;
+  padding: 6px 0 0 0;
+}
+
+.mobileMain .icon-item h6 {
+  font-size: 12px;
+}
+
+.mobileMain .icon-item p {
+  font-size: 8px;
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin-x: 0;
+  width: 100%;
+  height: auto;
+  line-height: 14px;
+  display : inline-block"
+}
+
+.mobileMain .tableSection {
+  padding: 20px 0;
+}
+
+.mobileMain .tableSection .container {
+  max-width: 100%;
+}
+
+.mobileMain .tableSection table th {
+  width: 25%;
+}
+
+.mobileMain .tableSection table th h4 {
+  font-size: 12px;
+}
+
+.mobileMain .tableSection table th p {
+  font-size: 10px;
+}
+
+.mobileMain .tableSection table td p {
+  font-size: 10px;
+  margin-top: -8px;
+}
+
+.mobileMain .tableSection table td img {
+  height: 40%;
+}
+
+#mobile-footer {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.MobileSection {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.MobileSection h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.MobileSection p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.MoblieMonitorSection {
+  display: inline-block;
+  max-width: 340px;
+  margin-top: 20px;
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-position: 5px 5px;
+}
+
+.MoblieMonitorSection .monitorItem {
+  width: 60px;
+  line-height: 60px;
+  height: 60px;
+  font-size: 12px;
+  margin: 0 10px;
+}
+
+.mobileContactContent {
+  padding: 10px 40px;
+}
+
+.mobileContactContent h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.mobileContactContent p {
+  font-size: 12px;
+}
+
+#mobileContact .contactForm {
+  padding: 30px 50px;
+  text-align: center;
+}
+
+#mobileContact .form-control {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#mobileContact .contactForm button {
+  display: inline-block;
+  color: #fff;
+  background-color: #b61d22;
+  font-size: 14px;
+  padding: 7px 23px;
+  border-radius: 15px;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.mobileContactInfo {
+  padding: 30px 60px;
+  color: #000;
+  text-align: center;
+}
+
+.mobileContactInfo h3 {
+  display: inline-block;
+  font-size: 16px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.mobileContactInfo p {
+  font-size: 14px;
+}
+
+.mobileContactInfo h4 {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.mobileMain .topSection2 {
+  padding: 0;
+}
