@@ -4,6 +4,7 @@ import PCTopSection2 from './pc_top_section2'
 import PCTableSection from './pc_table_section'
 import PCMonitorSection from './pc_monitor_section'
 import PCFooter from './pc_footer'
+
 export default class PCAssm3 extends React.Component {
 
   render() {

@@ -1,9 +1,13 @@
 import React from 'react'
 import PCHeader from './pc_header'
 import PCFooter from './pc_footer'
+import {Row, Col} from 'antd'
+import ContactForm from './pc_contactForm'
+
 export default class PCContact extends React.Component {
 
   render() {
+
     return (
       <div className="contact main">
         <PCHeader pageTitle={"资产全周期回报管控体系"}></PCHeader>
@@ -43,34 +47,7 @@ export default class PCContact extends React.Component {
                     </table>
                   </div>
                   <div className="col-16">
-                    <form action="#">
-                      <div className="row">
-                        <div className="col-12">
-                          <input className="form-control" type="text" placeholder="姓名" />
-                        </div>
-                        <div className="col-12">
-                          <input className="form-control" type="email" placeholder="邮件" />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-12">
-                          <input className="form-control" type="text" placeholder="电话" />
-                        </div>
-                        <div className="col-12">
-                          <input className="form-control" type="text" placeholder="标题" />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-24">
-                          <textarea className="form-control" rows="5" placeholder="信息"></textarea>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-24">
-                          <button>发送信息</button>
-                        </div>
-                      </div>
-                    </form>
+                    <ContactForm></ContactForm>
                   </div>
                 </div>
               </div>

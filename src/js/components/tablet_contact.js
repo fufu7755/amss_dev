@@ -1,6 +1,7 @@
 import React from 'react';
 import MobileHeader from './mobile_header'
 import MobileFooter from './mobile_footer'
+import ContactForm from './mobile_contactForm'
 
 export default class MobileContact extends React.Component {
   render() {
@@ -14,16 +15,7 @@ export default class MobileContact extends React.Component {
 
         </div>
         <div className="contactForm">
-
-          <form action="#">
-            <input className="form-control" type="text" placeholder="姓名" />
-            <input className="form-control" type="email" placeholder="邮件" />
-            <input className="form-control" type="text" placeholder="电话" />
-            <input className="form-control" type="text" placeholder="标题" />
-            <textarea className="form-control" rows="5" placeholder="信息"></textarea>
-            <button>发送信息</button>
-          </form>
-
+          <ContactForm></ContactForm>
         </div>
 
         <div className="mobileContactInfo">
