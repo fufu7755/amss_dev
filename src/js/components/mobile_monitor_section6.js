@@ -18,8 +18,23 @@ export default class PCMonitorSection extends React.Component {
     return (
       <div className="MobileSection">
         <div className="MoblieMonitorTitle">
-          <h2>AMSS- 资产包管理与估值系统</h2>
-          <p>通过高速回报测算系统，实现多项目综合回报测算与估值，并从多维度分析资产包内各类资产收入、费用及回报等指标。风险审批与归档体系充分实现投资决策透明化，并将风险控制融入投资决策过程中。</p>
+          <h2>AMSS-6 投资＋退出交易结构优化系统</h2>
+          <p>从投资人或被投资人的两个交易对立方，独立分析项目不同阶段的股权结构变化、阶段性退出规划、双方取费与付费结构
+等因素所带来的不同收益结果，帮助投资人或被投资人做投资或退出的交易机构优化。AMSS-6 系统也可以通过锁定投资
+人或被投资人回报要求，进行项目投资或退出定价。AMSS-6 系统所具备的高度智能化和表单可视化功能为企业提高投资
+决策质量和速度，提高市场竞争力。</p>
+          <h6>
+            <strong>该软件包含</strong>
+          </h6>
+          <div className="clearfix">
+            <ul className="listStyle">
+              <li>投资人与被投资人收益对立自动化测算 </li>
+              <li>投资人与被投资人收益敏感性自动化测算</li>
+              <li>投资与退出交易结构优化</li>
+              <li>项目投资回报锁定与交易定价</li>
+              <li>项目投资回报模型锁定与指标规划</li>
+            </ul>
+          </div>
         </div>
         <div>
           <div className="MoblieMonitorSection" style={monitorUrl}>

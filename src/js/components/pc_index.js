@@ -39,31 +39,31 @@ export default class PCIndex extends React.Component {
         minHeight: this.state.height
       },
       homeContent: {
-        maxHeight: this.state.width * 0.4
+       top: this.state.height * 0.3
       },
       link1: {
         left: this.state.iLeft - 190,
-        top: this.state.iTop + 30
+        top: this.state.height * 0.3 + 30
       },
       link2: {
         left: this.state.iLeft + this.state.iWidth * 0.25 - 240,
-        top: this.state.iTop + this.state.iHeight * 0.5 + 110
+        top: this.state.height * 0.3 + this.state.iHeight * 0.5 + 110
       },
       link3: {
-        left: this.state.iLeft + this.state.iWidth * 0.5 - 200,
-        top: this.state.iTop + this.state.iHeight + 30
+        left: this.state.iLeft + this.state.iWidth * 0.5 - 220,
+        top: this.state.height * 0.3 + this.state.iHeight + 30
       },
       link4: {
-        left: this.state.iLeft + this.state.iWidth * 0.5 + 40,
-        top: this.state.iTop + this.state.iHeight + 30
+        left: this.state.iLeft + this.state.iWidth * 0.5 + 60,
+        top: this.state.height * 0.3 + this.state.iHeight + 30
       },
       link5: {
         left: this.state.iLeft + this.state.iWidth * 0.75 + 80,
-        top: this.state.iTop + this.state.iHeight  * 0.5 + 110
+        top: this.state.height * 0.3 + this.state.iHeight  * 0.5 + 110
       },
       link6: {
         left: this.state.iLeft + this.state.iWidth + 30,
-        top: this.state.iTop + 30
+        top: this.state.height * 0.3 + 30
       },
       logoSize: {
         width: this.state.width > 1200 ? "300px":"200px"
@@ -76,10 +76,11 @@ export default class PCIndex extends React.Component {
           <h1 class="hometitle">智能资管</h1>
 				</div>
 
-				<div className="home-content" >
+				<div className="home-content" style={styleComponent.homeContent}>
           <Measure
             offset
             client
+            scroll
             onResize={(contentRect) => {
               console.log(contentRect.offset)
               this.setState({

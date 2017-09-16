@@ -2,7 +2,7 @@ import React from 'react';
 import MobileHeader from './mobile_header'
 import MobileFooter from './mobile_footer'
 import PCTopSection2 from './pc_top_section2'
-import MobileMonitorSection from './mobile_monitor_section'
+import MobileMonitorSection5 from './mobile_monitor_section5'
 import PCTableSection from './pc_table_section'
 
 export default class MobileAmss5 extends React.Component {
@@ -13,7 +13,7 @@ export default class MobileAmss5 extends React.Component {
         <MobileHeader pageTitle={"AMSS-5"}></MobileHeader>
         <PCTopSection2></PCTopSection2>
         <div className="even">
-          <MobileMonitorSection></MobileMonitorSection>
+          <MobileMonitorSection5></MobileMonitorSection5>
         </div>
         <MobileFooter></MobileFooter>
       </div>

@@ -418,3 +418,17 @@ html{
 .mobileMain .topSection2 {
   padding: 0;
 }
+
+.MobileSection {
+  font-size: 12px;
+}
+
+.MobileSection .listStyle li {
+  margin-right: 5px;
+  padding-left: 5px;
+  background-size: 4px 4px;
+}
+
+.MobileSection h6 {
+  font-size: 14px;
+}
