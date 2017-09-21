@@ -2,7 +2,7 @@ import React from 'react'
 import PCHeader from './pc_header'
 import PCTopSection2 from './pc_top_section2'
 import PCTableSection from './pc_table_section'
-import PCMonitorSection from './pc_monitor_section'
+import PCMonitorSection2 from './pc_monitor_section2'
 import PCFooter from './pc_footer'
 export default class PCAssm2 extends React.Component {
 
@@ -12,7 +12,7 @@ export default class PCAssm2 extends React.Component {
         <PCHeader pageTitle={"资产全周期回报管控体系"}></PCHeader>
         <PCTopSection2></PCTopSection2>
         <div className="even">
-          <PCMonitorSection></PCMonitorSection>
+          <PCMonitorSection2></PCMonitorSection2>
         </div>
         <div className="pageSection">
           <div className="container">

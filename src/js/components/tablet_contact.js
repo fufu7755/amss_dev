@@ -19,7 +19,8 @@ export default class MobileContact extends React.Component {
         </div>
 
         <div className="mobileContactInfo">
-          <h3>www.bridge5asia.com</h3>
+          <h3><a target="_blank" href="http://www.bridge5asia.com">www.bridge5asia.com</a></h3>
+
           <p>One Fullerton, 1 Fullerton Road,</p>
           <p>#02-01,Singapore 049213</p>
 

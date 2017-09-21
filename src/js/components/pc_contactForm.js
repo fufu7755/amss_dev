@@ -75,7 +75,7 @@ class ContactForm extends React.Component {
 
           </FormItem>
           <FormItem>
-            <Button htmlType="submit">发送信息</Button>
+            <Button type="primary" htmlType="submit">发送信息</Button>
           </FormItem>
         </Form>
 

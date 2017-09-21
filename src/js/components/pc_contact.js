@@ -18,7 +18,7 @@ export default class PCContact extends React.Component {
               <div className="contactForm">
                 <div className="row">
                   <div className="col-8">
-                    <h4>www.bridge5asia.com</h4>
+                    <h4><a target="_blank" href="http://www.bridge5asia.com">www.bridge5asia.com</a></h4>
                     <p>One Fullerton, 1 Fullerton Road,</p>
                     <p>#02-01,Singapore 049213</p>
                     <table>

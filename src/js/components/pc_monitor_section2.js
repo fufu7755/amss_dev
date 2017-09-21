@@ -15,18 +15,18 @@ export default class PCMonitorSection extends React.Component {
       <div className="monitorSection">
         <div className="container">
           <div className="monitorTitle">
-            <h2>AMSS-1回报测算软件</h2>
-            <p>通过对购物中心、写字楼、酒店、销售物业、综合体各类物业的现金流预测、NOI静态回报率、IRR动态回报率测算，进行
-项目投资可行性分析。AMSS－1适用于项目投资、方案设计和建设等阶段，</p>
+            <h2>AMSS-2 招商管理＋回报再测算软件</h2>
+            <p>行业中唯一将招商管理与资产管理结合的软件。AMSS－2通过紧密与项目投资回报挂钩，快速进行招商预算与计划自动
+编制。在招商执行过程中，随时就重大招商变更或招商阶段性成果进行回报再测算，实现有效回报监控。</p>
             <h6>
               <strong>该软件包含</strong>
             </h6>
             <div className="clearfix">
               <ul className="listStyle">
-                <li>投资回报测算 </li>
-                <li>资产估值 </li>
-                <li>设计方案比较与优化 </li>
-                <li>成本变化——回报再测算</li>
+                <li>招商预算编制</li>
+                <li>招商计划编制</li>
+                <li>招商执行编制</li>
+                <li>回报再测算</li>
               </ul>
             </div>
           </div>

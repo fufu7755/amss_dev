@@ -522,7 +522,7 @@ img {
   color: #000;
 }
 
-.contactForm h4 {
+.contactForm h4 a {
   display: inline-block;
   width: auto;
   color: #000;
@@ -612,4 +612,9 @@ h6 {
   font-weight: bold;
   margin: 10px 0;
   color: #7d7d7d;
+}
+
+.contactForm .ant-btn-primary {
+  background-color: #b61d22;
+  border-color: #b61d22;
 }
