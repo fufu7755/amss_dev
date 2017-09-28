@@ -21,7 +21,9 @@ export default class MobileAmss3 extends React.Component {
           <MobileMonitorSection3></MobileMonitorSection3>
         </div>
         <div className="pageSection">
-          <img src="/src/images/amss2-3.png" alt=""/>
+          <div className="amss3-img">
+            <img src="/src/images/amss3.png" alt=""/>
+          </div>
         </div>
         <div className="pageSection even">
             <img src="/src/images/amss-5.png" alt=""/>

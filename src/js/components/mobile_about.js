@@ -3,6 +3,7 @@ import MobileHeader from './mobile_header'
 import MobileFooter from './mobile_footer'
 import PCTopSection from './pc_top_section'
 import PCTableSection from './pc_table_section'
+import { DefaultPlayer as Video } from 'react-html5video'
 
 export default class MobileAbout extends React.Component {
   render() {
@@ -11,14 +12,17 @@ export default class MobileAbout extends React.Component {
       <div id="mobileAbout" className="mobileMain about">
         <MobileHeader pageTitle={"关于我们"}></MobileHeader>
         <div className="aboutVideo">
-          <div className="videoContent">
-            <video width="100%" height="200" controls="controls">
+          <Video loop
+              controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
+              poster="/src/images/video-cover.png"
+              onCanPlayThrough={() => {
+                  // Do stuff
+              }}>
               <source src="/src/images/amss_03.mp4" type="video/mp4" />
-            </video>
-          </div>
+          </Video>
         </div>
         <div className="aboutSection even">
-          <h2>客服资产管理人才瓶颈，构建智能化资产管理体系</h2>
+          <h2>克服资产管理人才瓶颈，构建智能化资产管理体系</h2>
           <img src="/src/images/about-2.png" alt=""/>
         </div>
         <PCTopSection></PCTopSection>

@@ -18,6 +18,10 @@
   min-height: 360px;
 }
 
+.tabletMain .mobileTop .ant-carousel .slick-slide {
+  min-height: 360px;
+}
+
 .mobileMain.tabletMain .icon-item {
   margin: 3px;
   padding: 0 10px;

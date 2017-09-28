@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {Form, Input, Button, Row, Col} from 'antd'
-
 const FormItem = Form.Item
 const {TextArea} = Input
 
@@ -11,9 +10,42 @@ class ContactForm extends React.Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         console.log('Received values of form: ', values);
+        this.sendEmail.bind(this);
       }
     });
   }
+
+  sendEmail() {
+    let stmpTransport = nodemailer.createTransport("smtp", {
+      host: "stmp.gmail.com",
+      secureConnection: false,
+      port: 25,
+      auth: {
+        user: "fufu7755@gmail.com",
+        pass: "19770505"
+      }
+    })
+
+    let mailOptions = {
+      from: "Afei <fufu7755@gmail.com>",
+      to: "516751551@qq.com",
+      subject: "Contact Message",
+      html: "ok"
+    }
+
+    stmpTransport.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            return console.log(error);
+        }
+        console.log('Message sent: %s', info.messageId);
+        // Preview only available when sending through an Ethereal account
+        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+
+        // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@blurdybloop.com>
+        // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+    });
+  }
+
   render() {
     const {getFieldDecorator} = this.props.form
     return (

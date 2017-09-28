@@ -3,6 +3,7 @@ import PCHeader from './pc_header'
 import PCFooter from './pc_footer'
 import ReactDOM from 'react-dom'
 import Measure from 'react-measure'
+import { Spin } from 'antd'
 
 export default class PCIndex extends React.Component {
   constructor(props) {
@@ -13,15 +14,17 @@ export default class PCIndex extends React.Component {
       iWidth: '0',
       iHeight: '0',
       iTop: '0',
-      iLeft: '0'
+      iLeft: '0',
+      loading: true
     }
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this)
   }
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions)
-    console.log(this.state)
-
+    this.setState({
+      loading: false
+    })
   }
 
   componentWillUnmount() {
@@ -49,19 +52,19 @@ export default class PCIndex extends React.Component {
       },
       link2: {
         left: this.state.iLeft + this.state.iWidth * 0.25 - 240,
-        top: this.state.height * 0.3 + this.state.iHeight * 0.5 + 110
+        top: this.state.height * 0.3 + this.state.iWidth / 1200 * 448 * 0.5 + 110
       },
       link3: {
         left: this.state.iLeft + this.state.iWidth * 0.5 - 220,
-        top: this.state.height * 0.3 + this.state.iHeight + 30
+        top: this.state.height * 0.3 + this.state.iWidth / 1200 * 448 + 30
       },
       link4: {
         left: this.state.iLeft + this.state.iWidth * 0.5 + 60,
-        top: this.state.height * 0.3 + this.state.iHeight + 30
+        top: this.state.height * 0.3 + this.state.iWidth / 1200 * 448 + 30
       },
       link5: {
         left: this.state.iLeft + this.state.iWidth * 0.75 + 80,
-        top: this.state.height * 0.3 + this.state.iHeight  * 0.5 + 110
+        top: this.state.height * 0.3 + this.state.iWidth / 1200 * 448  * 0.5 + 110
       },
       link6: {
         left: this.state.iLeft + this.state.iWidth + 30,
@@ -73,7 +76,6 @@ export default class PCIndex extends React.Component {
     }
     return (
         <div className="homePage" style={styleComponent.homeBackground}>
-
   				<div className="home-logo">
   					<img src="/src/images/logo.png" alt="logo" style={styleComponent.logoSize} />
             <h1 class="hometitle">智能资管</h1>

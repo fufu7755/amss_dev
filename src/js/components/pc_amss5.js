@@ -11,9 +11,7 @@ export default class PCAssm5 extends React.Component {
       <div className="amss5 main">
         <PCHeader pageTitle={"资产全周期回报管控体系"}></PCHeader>
         <PCTopSection2></PCTopSection2>
-        <div className="even">
-          <PCMonitorSection5></PCMonitorSection5>
-        </div>
+        
         <PCFooter></PCFooter>
       </div>
     );

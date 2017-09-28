@@ -23,6 +23,9 @@ module.exports = {
       }
     ]
   },
+  node: {
+    fs: "empty"
+  },
   output: {
     path: __dirname,
     filename: "./src/bundle.js"

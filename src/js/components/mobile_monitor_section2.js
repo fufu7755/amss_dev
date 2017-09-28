@@ -8,7 +8,7 @@ export default class PCMonitorSection extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      monitorUrl: '/src/images/amss1/amss1-1.png'
+      monitorUrl: '/src/images/amss2/amss2-1.png'
     };
   }
   render() {
@@ -19,8 +19,7 @@ export default class PCMonitorSection extends React.Component {
       <div className="MobileSection">
         <div className="MoblieMonitorTitle">
           <h2>AMSS-2 招商管理＋回报再测算软件</h2>
-          <p>行业中唯一将招商管理与资产管理结合的软件。AMSS－2通过紧密与项目投资回报挂钩，快速进行招商预算与计划自动
-编制。在招商执行过程中，随时就重大招商变更或招商阶段性成果进行回报再测算，实现有效回报监控。</p>
+          <p>行业中唯一将招商管理与资产管理结合的软件。AMSS－2通过紧密与项目投资回报挂钩，快速进行招商预算与计划自动编制。在招商执行过程中，随时就重大招商变更或招商阶段性成果进行回报再测算，实现有效回报监控。</p>
           <h6>
             <strong>该软件包含</strong>
           </h6>
@@ -43,26 +42,26 @@ export default class PCMonitorSection extends React.Component {
             <Row>
               <Col span={6}>
                 <a className="monitorItem monitorItem1"
-                    onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-1.png'})}>
-                  招商预算编制
+                    onMouseOver={() => this.setState({monitorUrl: '/src/images/amss2/amss2-1.png'})}>
+                  预算编制
                 </a>
               </Col>
               <Col span={6}>
                 <a className="monitorItem monitorItem2"
-                  onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-2.png'})}>
-                  招商计划编制
+                  onMouseOver={() => this.setState({monitorUrl: '/src/images/amss2/amss2-2.png'})}>
+                  分析报告
                 </a>
               </Col>
               <Col span={6}>
                 <a className="monitorItem monitorItem3"
-                  onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-3.png'})}>
-                  招商执行监制
+                  onMouseOver={() => this.setState({monitorUrl: '/src/images/amss2/amss2-3.png'})}>
+                  招商计划
                 </a>
               </Col>
               <Col span={6}>
                 <a className="monitorItem monitorItem4"
-                  onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-4.png'})}>
-                  回报再测算
+                  onMouseOver={() => this.setState({monitorUrl: '/src/images/amss2/amss2-4.png'})}>
+                  招商预算
                 </a>
               </Col>
             </Row>

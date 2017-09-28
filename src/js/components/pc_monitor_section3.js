@@ -4,7 +4,7 @@ export default class PCMonitorSection extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      monitorUrl: '/src/images/amss1/amss1-1.png'
+      monitorUrl: '/src/images/amss3/amss3-4.png'
     };
   }
   render() {
@@ -15,7 +15,7 @@ export default class PCMonitorSection extends React.Component {
       <div className="monitorSection">
         <div className="container">
           <div className="monitorTitle">
-            <h2>AMSS-3 经营预算管理＋回报再测算软件</h2>
+            <h2>AMSS-3 经营预算管理+回报再测算软件</h2>
             <p>行业中唯一将经营预算管理与资产管理结合的软件。AMSS-3是市场上唯一实现通过项目投资回报，往年经营差异分析及行业对标三个维度，实现预算编制的软件。在预算编制或执行过程中，随时就预算目标或重大变更进行回报再测算，实现有效回报监控。</p>
             <h6>
               <strong>该软件包含</strong>
@@ -39,28 +39,28 @@ export default class PCMonitorSection extends React.Component {
                 <tr>
                   <td>
                     <a className="monitorItem monitorItem1"
-                        onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-1.png'})}>
-                      招商预算编制
+                        onMouseOver={() => this.setState({monitorUrl: '/src/images/amss3/amss3-1.png'})}>
+                      经营分析
                     </a>
                   </td>
                   <td>
                     <a className="monitorItem monitorItem2"
-                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-2.png'})}>
-                      招商计划编制
+                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss3/amss3-2.png'})}>
+                       收入预算
                     </a>
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <a className="monitorItem monitorItem3"
-                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-3.png'})}>
-                      招商执行监制
+                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss3/amss3-3.png'})}>
+                      预算编制
                     </a>
                   </td>
                   <td>
                     <a className="monitorItem monitorItem4"
-                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-4.png'})}>
-                      回报再测算
+                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss3/amss3-4.png'})}>
+                      预算审批
                     </a>
                   </td>
                 </tr>

@@ -176,65 +176,6 @@ html{
   border-bottom: none;
 }
 
-#mobileAbout .mobileTop {
-  background-image: url('../images/mobile_aboutHeader.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-#mobileAmss1 .mobileTop {
-  background-image: url('../images/mobileAmss1Header.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-#mobileAmss2 .mobileTop {
-  background-image: url('../images/mobileAmss2Header.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-#mobileAmss3 .mobileTop {
-  background-image: url('../images/amss3.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-#mobileAmss4 .mobileTop {
-  background-image: url('../images/amss4.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-#mobileAmss5 .mobileTop {
-  background-image: url('../images/amss5.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-#mobileAmss6 .mobileTop {
-  background-image: url('../images/amss6.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-#mobileContact .mobileTop {
-  background-image: url('../images/mobileContact.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
 .mobileMain .aboutVideo {
   padding: 20px 0;
 }
@@ -352,9 +293,9 @@ html{
 }
 
 .MoblieMonitorSection .monitorItem {
-  width: 60px;
-  line-height: 60px;
-  height: 60px;
+  width: 70px;
+  line-height: 70px;
+  height: 70px;
   font-size: 12px;
   margin: 0 10px;
 }
@@ -405,6 +346,7 @@ html{
   border-bottom: 1px solid #000;
   margin-bottom: 10px;
   color: #000;
+  text-decoration: none;
 }
 
 .mobileContactInfo p {
@@ -432,4 +374,62 @@ html{
 
 .MobileSection h6 {
   font-size: 14px;
+}
+
+.mobileTop .ant-carousel .slick-slide {
+  min-height: 240px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mobileTop .ant-carousel .slide-item-1 {
+  background-image: url(../images/mobile_about.jpg);
+}
+
+.mobileTop .ant-carousel .slide-item-2 {
+  background-image: url(../images/mobile_amss1.jpg);
+}
+
+.mobileTop .ant-carousel .slide-item-3 {
+  background-image: url(../images/mobile_amss2.jpg);
+}
+
+.mobileTop .ant-carousel .slide-item-4 {
+  background-image: url(../images/mobile_amss3.jpg);
+}
+
+.mobileTop .ant-carousel .slide-item-5 {
+  background-image: url(../images/mobile_amss4.jpg);
+}
+
+.mobileTop .ant-carousel .slide-item-6 {
+  background-image: url(../images/mobile_amss5.jpg);
+}
+
+.mobileTop .ant-carousel .slide-item-7 {
+  background-image: url(../images/mobile_amss6.jpg);
+}
+
+#mobileheader .slick-dots {
+  font-size: 20px;
+}
+
+#mobileheader .ant-carousel .slick-slide h1 {
+  bottom: 30px;
+}
+
+#mobileheader .fixed-box i {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.mobileContactInfo h3 {
+  display: inline-block;
+  background: url(../images/hand-click.png) 0 center no-repeat;
+  background-size: 30px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 40px;
 }

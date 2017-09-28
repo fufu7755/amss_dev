@@ -528,6 +528,7 @@ img {
   color: #000;
   margin-bottom: 30px;
   border-bottom: 2px solid #7d7d7d;
+  text-decoration: none;
 }
 
 .contactForm table {
@@ -617,4 +618,247 @@ h6 {
 .contactForm .ant-btn-primary {
   background-color: #b61d22;
   border-color: #b61d22;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 35vw;
+  width: 100%;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h1 {
+  position: absolute;
+    width: 100%;
+    bottom: 25%;
+    z-index: 100;
+    text-align: center;
+}
+
+.ant-carousel .slide-item-1 {
+  background: url(../images/about-header.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ant-carousel .slide-item-2 {
+  background: url(../images/amss1-header.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ant-carousel .slide-item-3 {
+  background: url(../images/amss2-header.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ant-carousel .slide-item-4 {
+  background: url(../images/amss3-header.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ant-carousel .slide-item-5 {
+  background: url(../images/amss4-header.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ant-carousel .slide-item-6 {
+  background: url(../images/amss5-header.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ant-carousel .slide-item-7 {
+  background: url(../images/amss6-header.jpg) 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.ant-carousel .slick-dots {
+  bottom: 70px;
+}
+
+.ant-carousel .slick-dots li{
+  margin: 0 4px;
+}
+
+.ant-carousel .slick-dots li button {
+  height: 15px;
+  width: 15px;
+  border: 2px solid #fff;
+  background: transparent;
+  border-radius: 30px;
+  opacity: 0.8;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  width: 15px;
+  background-color: #b61d22;
+  border-color: #b61d22;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 40px;
+    line-height: 1;
+    color: #fff;
+    opacity: .75;
+}
+
+.ant-carousel .slick-next {
+    right: 25px;
+}
+
+.ant-carousel .slick-next:before {
+  content: "\276f";
+}
+
+.ant-carousel .slick-prev {
+    left: 25px;
+    z-index: 100;
+}
+
+.ant-carousel .slick-prev:before {
+    content: "\276e";
+}
+
+.fixed-box {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  top: 40%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 7px 0 0 7px;
+}
+
+.fixed-box .anticon:before {
+  font-size: 34px;
+  color: #b61d22;
+}
+
+.box-item-phone {
+  padding: 5px;
+  background-color: #e5e5e5;
+  border-radius: 7px 0 0 0;
+}
+
+.box-item-phone:hover {
+  background-color: #b61d22;
+}
+
+.box-item-phone:hover .anticon:before {
+  color: #e5e5e5;
+}
+
+.box-item-qrcode {
+  padding: 5px;
+  background-color: #e5e5e5;
+  border-radius: 0 0 0 7px;
+}
+
+.box-item-qrcode:hover {
+  background-color: #b61d22;
+}
+
+.box-item-qrcode:hover .anticon:before {
+  color: #e5e5e5;
+}
+
+.fixed-box hr {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+  border-style: inset;
+  border-width: 0;
+  border-top: 1px solid #7d7d7d;
+}
+
+.ant-popover-inner {
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+
+.ant-popover-placement-left > .ant-popover-content > .ant-popover-arrow:after, .ant-popover-placement-leftTop > .ant-popover-content > .ant-popover-arrow:after, .ant-popover-placement-leftBottom > .ant-popover-content > .ant-popover-arrow:after {
+    border-left-color: #e5e5e5;
+}
+
+.content-phone {
+  padding: 10px 0;
+  font-size: 18px;
+  color: #000;
+}
+
+.content-phone h4 {
+  color: #b61d22;
+  font-size: 20px;
+}
+
+.content-phone a {
+  color: #000;
+  text-decoration: none;
+}
+
+.content-qrchat {
+  padding: 5px 0;
+}
+
+.content-qrchat img {
+  display: block;
+  width: 240px;
+  height: 240px;
+}
+
+.rh5v-Volume_icon {
+  padding: 3px !important;
+}
+
+.contactForm h4 {
+  margin-bottom: 30px;
+  height: 49px;
+  line-height: 49px;
+  background: url(../images/hand-click.png) 0 center no-repeat;
+  padding-left: 60px;
+}
+
+.contactForm h4 a {
+  margin-bottom: 0;
+}
+
+.qrchat-img {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.qrchat-img img {
+  display: inline-block;
+  border: 15px solid #e5e5e5;
+}
+
+.amss3-img {
+  text-align: center;
+}
+
+.amss3-img img {
+  display: inline-block;
+}
+
+.page-loader {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fefefe;
+  z-index: 100000;
+  text-align: center;
+}
+
+.ant-spin-spinning {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -16px 0 0 -15px;
+    z-index: 100001;
+}
+
+.ant-spin-dot i {
+  background-color: #b61d22;
 }
