@@ -55,6 +55,7 @@ export default class Root extends React.Component {
               <Route path = "/amss5" component={PCAmss5}></Route>
               <Route path = "/amss6" component={PCAmss6}></Route>
               <Route path = "/contact" component={PCContact}></Route>
+              <Route path = "/subscribe"></Route>
             </Switch>
           </BrowserRouter>
         </MediaQuery>

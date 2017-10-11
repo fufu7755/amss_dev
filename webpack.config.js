@@ -3,6 +3,11 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
+  resolve: {
+		alias: {
+			"react/lib/DOMProperty": "react-dom/lib/DOMProperty"
+		}
+	},
   context: path.join(__dirname),
   devtool: debug ? "inline-sourcemap" : null,
   entry: "./src/js/root.js",
