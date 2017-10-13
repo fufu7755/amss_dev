@@ -23,9 +23,8 @@ export default class PCAbout extends React.Component {
     return (
       <div className="about main">
         <PCHeader pageTitle={"资产全周期回报管控体系"}></PCHeader>
-        <div className="aboutVideo">
-          <div className="container">
-
+        <div className="container">
+          <div className="aboutVideo">
             <Video loop
                 controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
                 poster="/src/images/video-cover.png"
@@ -40,7 +39,9 @@ export default class PCAbout extends React.Component {
           <div className="container">
             <h2>克服资产管理人才瓶颈，构建智能化资产管理体系</h2>
             <p>通过高速回报测算系统，实现多项目综合回报测算与估值，并从多维度分析资产包内各类资产收入、费用及回报等指标。风险审批与归档体系充分实现投资决策透明化，并将风险控制融入投资决策过程中。</p>
-            <img src="../src/images/about-2.png" alt=""/>
+            <div className="p-50">
+              <img src="../src/images/about-2.png" alt=""/>
+            </div>
           </div>
         </div>
         <PCTopSection></PCTopSection>

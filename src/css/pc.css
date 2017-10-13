@@ -5,7 +5,7 @@ header {
 }
 
 body {
-  font-size: 20px;
+  font-size: 14px;
   color: #7d7d7d;
   font-family: "Arial", "黑体","宋体",sans-serif;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   color: #fff;
   width: 100%;
 }
@@ -151,7 +151,7 @@ header h1 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -161,10 +161,14 @@ header h1 {
 }
 
 .desktop-nav {
-  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.p-50 {
+  padding: 0 50px;
 }
 
 .desktop-nav ul {
@@ -172,8 +176,8 @@ header h1 {
   width: 100%;
   position: relative;
   bottom: 0;
-  height: 50px;
-  margin-top: -50px;
+  height: 45px;
+  margin-top: -45px;
 }
 
 .desktop-nav ul li {
@@ -185,10 +189,10 @@ header h1 {
   display: block;
   color: #fff;
   text-align: center;
-  line-height: 50px;
-  font-size: 20px;
+  line-height: 45px;
+  font-size: 16px;
   text-transform: uppercase;
-  margin: 0 30px;
+  margin: 0 20px;
   text-decoration: none;
 }
 
@@ -203,7 +207,7 @@ header h1 {
 }
 
 .topSection {
-  padding: 30px 0 70px 0;
+  padding: 30px 0 30px 0;
 }
 
 .topSection2 {
@@ -217,7 +221,7 @@ img {
 .topNav {
   display: block;
   width: 100%;
-  margin: 30px 0;
+  margin: 15px 0;
   background-image: url('../images/back-top.png');
   background-position: bottom;
   background-repeat: no-repeat;
@@ -231,10 +235,10 @@ img {
 .topNav li {
   display: inline-block;
   width: 16.666%;
-  font-size: 20px;
+  font-size: 16px;
   color: #898989;
   text-align: center;
-  height: 60px;
+  height: 50px;
   line-height: 30px;
 }
 
@@ -284,11 +288,15 @@ img {
   float: left;
 }
 
+.tableSection img {
+  height: 80%;
+}
+
 .icon-item {
   margin: 10px;
   background-color: #7d7d7d;
   text-align: center;
-  padding: 10px 20px;
+  padding: 0 25px;
   color: #fff;
   border-radius: 10px;
 }
@@ -322,7 +330,7 @@ img {
 }
 
 .icon-item h6 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .icon-item img {
@@ -338,7 +346,7 @@ img {
 
 .tableSection {
   background-color: #f5f5f5;
-  padding: 70px 0;
+  padding: 30px 0;
 }
 
 .tableSection table {
@@ -355,12 +363,12 @@ img {
 }
 
 .tableSection table th h4 {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 5px;
 }
 
 .tableSection table th p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .tableSection table td {
@@ -373,7 +381,7 @@ img {
 }
 
 .tableSection table td p {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .monitorSection {
@@ -438,15 +446,15 @@ img {
 }
 
 .monitorTitle p {
-  font-size: 20px;
+  font-size: 18px;
   color: #7d7d7d;
 }
 
 .footer {
-  font-size: 20px;
+  font-size: 14px;
   color: #b61d22;
   text-align: center;
-  padding: 70px 0;
+  padding: 30px 0;
   background-color: #000;
 }
 
@@ -472,7 +480,7 @@ img {
 }
 
 .aboutSection h2 {
-  font-size: 30px;
+  font-size: 18px;
   color: #b61d22;
   margin-bottom: 10px;
 }
@@ -518,7 +526,7 @@ img {
 }
 
 .contactForm {
-  padding-top: 50px;
+  padding-top: 30px;
   color: #000;
 }
 
@@ -622,7 +630,8 @@ h6 {
 
 .ant-carousel .slick-slide {
   text-align: center;
-  height: 35vw;
+  height: 30vw;
+  max-height: 480px;
   width: 100%;
   background: #364d79;
   overflow: hidden;
@@ -637,37 +646,32 @@ h6 {
 }
 
 .ant-carousel .slide-item-1 {
-  background: url(../images/about-header.jpg) 0 0 no-repeat;
-  background-size: 100%;
+  background: url(../images/b1.jpg) 0 0 no-repeat;
+  background-size: cover;
 }
 
 .ant-carousel .slide-item-2 {
-  background: url(../images/amss1-header.jpg) 0 0 no-repeat;
+  background: url(../images/b2.jpg) 0 0 no-repeat;
   background-size: 100%;
 }
 
 .ant-carousel .slide-item-3 {
-  background: url(../images/amss2-header.jpg) 0 0 no-repeat;
+  background: url(../images/b3.jpg) 0 0 no-repeat;
   background-size: 100%;
 }
 
 .ant-carousel .slide-item-4 {
-  background: url(../images/amss3-header.jpg) 0 0 no-repeat;
+  background: url(../images/b4.jpg) 0 0 no-repeat;
   background-size: 100%;
 }
 
 .ant-carousel .slide-item-5 {
-  background: url(../images/amss4-header.jpg) 0 0 no-repeat;
+  background: url(../images/b5.jpg) 0 0 no-repeat;
   background-size: 100%;
 }
 
 .ant-carousel .slide-item-6 {
-  background: url(../images/amss5-header.jpg) 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.ant-carousel .slide-item-7 {
-  background: url(../images/amss6-header.jpg) 0 0 no-repeat;
+  background: url(../images/b6.jpg) 0 0 no-repeat;
   background-size: 100%;
 }
 
@@ -781,13 +785,13 @@ h6 {
 
 .content-phone {
   padding: 10px 0;
-  font-size: 18px;
+  font-size: 14px;
   color: #000;
 }
 
 .content-phone h4 {
   color: #b61d22;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .content-phone a {
@@ -841,4 +845,42 @@ h6 {
 
 .ant-spin-dot i {
   background-color: #b61d22;
+}
+
+.aboutVideo {
+  padding: 30px 50px;
+}
+
+.aboutVideo .rh5v-DefaultPlayer_component {
+  background-color: #fff;
+}
+
+.aboutVideo .rh5v-Overlay_inner {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: -25px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 30px;
+}
+
+.header {
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  z-index: 99;
+  width: 200px;
+  top: 15%;
+  margin-left: -100px;
+  left: 50%;
 }

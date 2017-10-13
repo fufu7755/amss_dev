@@ -50,29 +50,29 @@ export default class PCHeader extends React.Component {
       autoplay: true
     }
     return (
-      <div>
+      <div className="header">
+        <img className="logo" src="/src/images/logo.png" alt="logo" />
         <Carousel {...settings}>
-          <div className="slide-item-1">
-            <h1>{this.props.pageTitle}</h1>
-          </div>
           <div className="slide-item-2"><h1>{this.props.pageTitle}</h1></div>
           <div className="slide-item-3"><h1>{this.props.pageTitle}</h1></div>
           <div className="slide-item-4"><h1>{this.props.pageTitle}</h1></div>
           <div className="slide-item-5"><h1>{this.props.pageTitle}</h1></div>
           <div className="slide-item-6"><h1>{this.props.pageTitle}</h1></div>
-          <div className="slide-item-7"><h1>{this.props.pageTitle}</h1></div>
         </Carousel>
+
         <div className="desktop-nav">
-          <ul className="clearlist">
-            <li><NavLink to='/about' activeClassName='is-active'>关于我们</NavLink></li>
-            <li><NavLink to={`/amss1`} activeClassName='is-active'>AMSS-1</NavLink></li>
-            <li><NavLink to={`/amss2`} activeClassName='is-active'>AMSS-2</NavLink></li>
-            <li><NavLink to={`/amss3`} activeClassName='is-active'>AMSS-3</NavLink></li>
-            <li><NavLink to={`/amss4`} activeClassName='is-active'>AMSS-4</NavLink></li>
-            <li><NavLink to={`/amss5`} activeClassName='is-active'>AMSS-5</NavLink></li>
-            <li><NavLink to={`/amss6`} activeClassName='is-active'>AMSS-6</NavLink></li>
-            <li><NavLink to={`/contact`} activeClassName='is-active'>联系我们</NavLink></li>
-          </ul>
+          <div className="container">
+            <ul className="clearlist">
+              <li><NavLink to='/about' activeClassName='is-active'>关于我们</NavLink></li>
+              <li><NavLink to={`/amss1`} activeClassName='is-active'>AMSS-1</NavLink></li>
+              <li><NavLink to={`/amss2`} activeClassName='is-active'>AMSS-2</NavLink></li>
+              <li><NavLink to={`/amss3`} activeClassName='is-active'>AMSS-3</NavLink></li>
+              <li><NavLink to={`/amss4`} activeClassName='is-active'>AMSS-4</NavLink></li>
+              <li><NavLink to={`/amss5`} activeClassName='is-active'>AMSS-5</NavLink></li>
+              <li><NavLink to={`/amss6`} activeClassName='is-active'>AMSS-6</NavLink></li>
+              <li><NavLink to={`/contact`} activeClassName='is-active'>联系我们</NavLink></li>
+            </ul>
+          </div>
         </div>
         <div className="fixed-box">
           <div className="box-item-phone">

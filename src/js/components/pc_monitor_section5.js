@@ -29,43 +29,6 @@ export default class PCMonitorSection extends React.Component {
               </ul>
             </div>
           </div>
-          <div className="monitorLeft" style={monitorUrl}>
-            <img src="../src/images/tv.png" alt=""/>
-          </div>
-          <div className="monitorRight">
-            <table>
-              <tbody>
-                <tr>
-                  <td>
-                    <a className="monitorItem monitorItem1"
-                        onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-1.png'})}>
-                      招商预算编制
-                    </a>
-                  </td>
-                  <td>
-                    <a className="monitorItem monitorItem2"
-                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-2.png'})}>
-                      招商计划编制
-                    </a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <a className="monitorItem monitorItem3"
-                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-3.png'})}>
-                      招商执行监制
-                    </a>
-                  </td>
-                  <td>
-                    <a className="monitorItem monitorItem4"
-                      onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-4.png'})}>
-                      回报再测算
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
         </div>
       </div>
     );
