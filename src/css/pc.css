@@ -24,7 +24,7 @@ h2 {
   margin-bottom: 20px;
   color: #b61d22;
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 header h1 {
@@ -90,14 +90,13 @@ header h1 {
 }
 
 .homeLinks h3 {
-  font-size: 22px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .homeLinks p {
-  font-size: 16px;
-  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 .link-1 {
@@ -151,7 +150,7 @@ header h1 {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1024px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -288,10 +287,6 @@ img {
   float: left;
 }
 
-.tableSection img {
-  height: 80%;
-}
-
 .icon-item {
   margin: 10px;
   background-color: #7d7d7d;
@@ -385,24 +380,24 @@ img {
 }
 
 .monitorSection {
-  padding: 70px 0;
+  padding: 30px 0;
 }
 
 .monitorLeft {
   display: inline-block;
-  width: 742px;
-  height: 558px;
-  background-size: 702px auto;
-  background-position: 20px 20px;
+  width: 600px;
+  height: auto;
+  background-size: 568px auto;
+  background-position: 16px 16px;
   background-repeat: no-repeat;
 }
 
 .monitorRight {
   display: inline-block;
-  width: 458px;
-  height: 558px;
+  width: 424px;
+  height: 457px;
   text-align: center;
-  padding: 60px 80px 160px 80px;
+  padding: 60px 80px 80px 60px;
 }
 
 .monitorRight table {
@@ -418,14 +413,14 @@ img {
 
 .monitorItem {
   display: block;
-  width: 118px;
-  height: 118px;
+  width: 90px;
+  height: 90px;
   background-color: #b61d22;
   border-radius: 90px;
   display: inline-block;
   color: #fff;
-  font-size: 16px;
-  line-height: 118px;
+  font-size: 12px;
+  line-height: 90px;
 }
 
 .monitorItem:hover {
@@ -433,12 +428,12 @@ img {
 }
 
 .monitorTitle {
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 .monitorTitle h2 {
-  font-size: 30px;
+  font-size: 18px;
   color: #b61d22;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -446,7 +441,6 @@ img {
 }
 
 .monitorTitle p {
-  font-size: 18px;
   color: #7d7d7d;
 }
 
@@ -475,7 +469,7 @@ img {
 
 .aboutSection {
   background-color: #f5f5f5;
-  padding: 70px 0;
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -569,7 +563,7 @@ img {
   padding: 10px 13px;
   border: 1px solid rgba(0,0,0,.15);
   border-radius: 0;
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
 }
 
@@ -604,12 +598,13 @@ img {
 }
 
 .listStyle li {
-  margin-right: 20px;
-  padding-left: 20px;
+  margin-right: 10px;
+  padding-left: 10px;
   display: inline-block;
   background-image: url(../images/disc-circle.png);
   background-repeat: no-repeat;
   background-position: center left;
+  background-size: 5px 5px;
 }
 
 .clearfix {
@@ -617,9 +612,9 @@ img {
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 5px 0;
   color: #7d7d7d;
 }
 
@@ -883,4 +878,50 @@ h6 {
   top: 15%;
   margin-left: -100px;
   left: 50%;
+}
+
+.tableSection .ant-col-4 {
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #f5f5f5;
+    background-color: #fff;
+    color: #7d7d7d;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tableSection .ant-col-4 img {
+  height: 60px;
+}
+
+.tableSection .ant-col-4 p {
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+
+.tableSection .tableTop {
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #f5f5f5;
+  background-color: #b61d22;
+  color: #fff;
+  height: 64px;
+}
+
+.tableSection .tableTop h4 {
+  color: #fff;
+}
+
+.tableSection .tableTop p {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.addPlus {
+  height: 14px;
+  line-height: 14px;
 }

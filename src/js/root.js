@@ -43,7 +43,7 @@ export default class Root extends React.Component {
   render() {
     return (
       <div>
-        <MediaQuery query="(min-width: 1224px)">
+        <MediaQuery query="(min-width: 1024px)">
           <BrowserRouter>
             <Switch>
               <Route exact path = "/" component={PCIndex}></Route>
@@ -59,7 +59,7 @@ export default class Root extends React.Component {
             </Switch>
           </BrowserRouter>
         </MediaQuery>
-        <MediaQuery query="(max-width: 1223px) and (min-width: 768px)" >
+        <MediaQuery query="(max-width: 1023px) and (min-width: 768px)" >
           <BrowserRouter>
             <Switch>
               <Route exact path = "/" component={TabletIndex}></Route>

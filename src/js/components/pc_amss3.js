@@ -17,13 +17,17 @@ export default class PCAssm3 extends React.Component {
         <div className="pageSection">
           <div className="container">
             <div className="amss3-img">
-              <img src="/src/images/amss3.png" alt=""/>
+              <div className="p-50">
+                <img src="/src/images/amss3.png" alt=""/>
+              </div>
             </div>
           </div>
         </div>
         <div className="pageSection even">
           <div className="container">
-            <img src="/src/images/amss-5.png" alt=""/>
+            <div className="p-50">
+              <img src="/src/images/amss-5.png" alt=""/>
+            </div>
           </div>
         </div>
         <PCFooter></PCFooter>

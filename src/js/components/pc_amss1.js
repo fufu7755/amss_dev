@@ -23,7 +23,6 @@ export default class PCAmss1 extends React.Component {
       <div className="amss1 main">
         <PCHeader pageTitle={"资产全周期回报管控体系"}></PCHeader>
         <PCTopSection></PCTopSection>
-        <PCTableSection></PCTableSection>
         <PCMonitorSection></PCMonitorSection>
         <PCFooter></PCFooter>
       </div>

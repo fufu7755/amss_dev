@@ -112,21 +112,25 @@ export default class PCIndex extends React.Component {
           <a href="/amss2" className="homeLinks link-2" style={styleComponent.link2}>
             <h3>AMSS-2</h3>
             <p>招商管理</p>
+            <p className="addPlus">+</p>
             <p>回报再测算</p>
           </a>
           <a href="/amss3" className="homeLinks link-3" style={styleComponent.link3}>
             <h3>AMSS-3</h3>
             <p>经营预算管理</p>
+            <p className="addPlus">+</p>
             <p>回报再测算</p>
           </a>
           <a href="/amss4" className="homeLinks link-4" style={styleComponent.link4}>
             <h3>AMSS-4</h3>
             <p>投资审批</p>
+            <p className="addPlus">+</p>
             <p>风险控制</p>
           </a>
           <a href="/amss5" className="homeLinks link-5" style={styleComponent.link5}>
             <h3>AMSS-5</h3>
             <p>资产包管理</p>
+            <p className="addPlus">+</p>
             <p>估值</p>
           </a>
           <a href="/amss6" className="homeLinks link-6" style={styleComponent.link6}>

@@ -14,7 +14,7 @@ export default class TabletAbout extends React.Component {
         <div className="aboutVideo">
           <Video loop
               controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
-              poster="/src/images/video-cover.png"
+              poster="/src/images/video-cover.jpg"
               onCanPlayThrough={() => {
                   // Do stuff
               }}>

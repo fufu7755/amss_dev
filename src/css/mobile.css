@@ -433,3 +433,19 @@ html{
   line-height: 30px;
   padding: 0 40px;
 }
+
+.mobileMain .tableSection .ant-col-4 img {
+  height: auto;
+}
+
+.mobileMain .tableSection .ant-col-4 {
+  height: 90px;
+}
+
+.mobileMain .tableSection .tableTop {
+  height: 140px;
+}
+
+.mobileMain .tableSection .ant-col-4 p {
+  margin-top: -5px;
+}

@@ -78,3 +78,15 @@
 .tabletMain .MobileSection {
   font-size: 14px;
 }
+
+.mobileMain.tabletMain .tableSection .ant-col-4 {
+  height: 90px;
+}
+
+.mobileMain.tabletMain .tableSection .ant-col-4 img {
+  height: 45px;
+}
+
+.mobileMain.tabletMain .icon-item img {
+  max-width: 80%;
+}
