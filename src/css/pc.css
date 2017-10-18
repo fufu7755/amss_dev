@@ -156,7 +156,7 @@ header h1 {
 }
 
 .pageSection {
-  padding: 70px 0;
+  padding: 30px 0;
 }
 
 .desktop-nav {
@@ -207,10 +207,6 @@ header h1 {
 
 .topSection {
   padding: 30px 0 30px 0;
-}
-
-.topSection2 {
-  padding: 0 95px;
 }
 
 img {
@@ -291,9 +287,13 @@ img {
   margin: 10px;
   background-color: #7d7d7d;
   text-align: center;
-  padding: 0 25px;
+  padding: 0 30px;
   color: #fff;
   border-radius: 10px;
+}
+
+.topSection2 .icon-item {
+  margin: 10px 20px 10px 0px;
 }
 
 .icon-item.red {
@@ -384,7 +384,6 @@ img {
 }
 
 .monitorLeft {
-  display: inline-block;
   width: 600px;
   height: auto;
   background-size: 568px auto;
@@ -393,11 +392,10 @@ img {
 }
 
 .monitorRight {
-  display: inline-block;
-  width: 424px;
+  width: 341px;
   height: 457px;
   text-align: center;
-  padding: 60px 80px 80px 60px;
+  padding: 60px 80px 100px 40px;
 }
 
 .monitorRight table {
@@ -456,10 +454,6 @@ img {
 .about header {
   background: url(../images/about-header.jpg) 0 0 no-repeat;
   background-size: 100%;
-}
-
-.aboutVideo {
-  padding: 70px 0;
 }
 
 .videoContent {
@@ -560,7 +554,7 @@ img {
   display: block;
   position: relative;
   background-color: #f7f7f7;
-  padding: 10px 13px;
+  padding: 7px 13px;
   border: 1px solid rgba(0,0,0,.15);
   border-radius: 0;
   font-size: 14px;
@@ -598,13 +592,13 @@ img {
 }
 
 .listStyle li {
-  margin-right: 10px;
-  padding-left: 10px;
+  margin-right: 5px;
+  padding-left: 5px;
   display: inline-block;
   background-image: url(../images/disc-circle.png);
   background-repeat: no-repeat;
   background-position: center left;
-  background-size: 5px 5px;
+  background-size: 4px 4px;
 }
 
 .clearfix {
@@ -627,6 +621,7 @@ h6 {
   text-align: center;
   height: 30vw;
   max-height: 480px;
+  min-height: 360px;
   width: 100%;
   background: #364d79;
   overflow: hidden;
@@ -679,8 +674,8 @@ h6 {
 }
 
 .ant-carousel .slick-dots li button {
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   border: 2px solid #fff;
   background: transparent;
   border-radius: 30px;
@@ -688,13 +683,13 @@ h6 {
 }
 
 .ant-carousel .slick-dots li.slick-active button {
-  width: 15px;
+  width: 12px;
   background-color: #b61d22;
   border-color: #b61d22;
 }
 
 .slick-next:before, .slick-prev:before {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1;
     color: #fff;
     opacity: .75;
@@ -779,7 +774,6 @@ h6 {
 }
 
 .content-phone {
-  padding: 10px 0;
   font-size: 14px;
   color: #000;
 }
@@ -800,8 +794,8 @@ h6 {
 
 .content-qrchat img {
   display: block;
-  width: 240px;
-  height: 240px;
+  width: 200px;
+  height: 200px;
 }
 
 .rh5v-Volume_icon {
@@ -809,11 +803,12 @@ h6 {
 }
 
 .contactForm h4 {
-  margin-bottom: 30px;
-  height: 49px;
-  line-height: 49px;
+  margin-bottom: 10px;
+  height: 25px;
+  line-height: 25px;
   background: url(../images/hand-click.png) 0 center no-repeat;
-  padding-left: 60px;
+  padding-left: 40px;
+  background-size: 25px;
 }
 
 .contactForm h4 a {
@@ -828,6 +823,7 @@ h6 {
 .qrchat-img img {
   display: inline-block;
   border: 15px solid #e5e5e5;
+  width: 200px;
 }
 
 .amss3-img {
@@ -843,7 +839,7 @@ h6 {
 }
 
 .aboutVideo {
-  padding: 30px 50px;
+  padding: 30px 0;
 }
 
 .aboutVideo .rh5v-DefaultPlayer_component {
@@ -874,9 +870,9 @@ h6 {
   display: inline-block;
   position: absolute;
   z-index: 99;
-  width: 200px;
+  width: 180px;
   top: 15%;
-  margin-left: -100px;
+  margin-left: -90px;
   left: 50%;
 }
 
@@ -924,4 +920,20 @@ h6 {
 .addPlus {
   height: 14px;
   line-height: 14px;
+}
+
+.p-t-5 {
+  padding-top: 5px;
+}
+
+.p-t-10 {
+  padding-top: 10px;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
+.m-b-5 {
+  margin-bottom: 5px;
 }

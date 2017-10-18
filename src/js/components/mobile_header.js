@@ -21,8 +21,8 @@ export default class MobileHeader extends React.Component {
   render() {
     const contentPhone = (
       <div className="content-phone">
-        <h4>我们随时准备为您提供帮助</h4>
-        <Row>
+        <h4 className="m-b-5">我们随时准备为您提供帮助</h4>
+        <Row className="m-b-5">
           <Col span={4}>
             电话
           </Col>
@@ -32,7 +32,7 @@ export default class MobileHeader extends React.Component {
             <p>(86) 136 7006 7157</p>
           </Col>
         </Row>
-        <Row>
+        <Row className="m-b-5">
           <Col span={4}>
             传真
           </Col>
@@ -40,7 +40,7 @@ export default class MobileHeader extends React.Component {
             <p>(65) 6408 3801</p>
           </Col>
         </Row>
-        <Row>
+        <Row className="">
           <Col span={4}>
             邮箱
           </Col>
@@ -48,7 +48,6 @@ export default class MobileHeader extends React.Component {
             <p><a href="mailto: amss@amssasia.com.cn">amss@amssasia.com.cn</a></p>
           </Col>
         </Row>
-
       </div>
     )
     const contentChat = (

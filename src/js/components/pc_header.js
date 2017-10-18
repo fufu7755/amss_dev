@@ -9,34 +9,33 @@ export default class PCHeader extends React.Component {
   render() {
     const contentPhone = (
       <div className="content-phone">
-        <h4>我们随时准备为您提供帮助</h4>
-        <Row>
-          <Col span={4}>
+        <h4 className="m-b-10">我们随时准备为您提供帮助</h4>
+        <Row className="m-b-10">
+          <Col span={6}>
             电话
           </Col>
-          <Col span={20}>
+          <Col span={18}>
             <p>(65) 6468 3619</p>
             <p>(65) 9297 0850</p>
             <p>(86) 136 7006 7157</p>
           </Col>
         </Row>
-        <Row>
-          <Col span={4}>
+        <Row className="m-b-10">
+          <Col span={6}>
             传真
           </Col>
-          <Col span={20}>
+          <Col span={18}>
             <p>(65) 6408 3801</p>
           </Col>
         </Row>
         <Row>
-          <Col span={4}>
+          <Col span={6}>
             邮箱
           </Col>
-          <Col span={20}>
+          <Col span={18}>
             <p><a href="mailto: amss@amssasia.com.cn">amss@amssasia.com.cn</a></p>
           </Col>
         </Row>
-
       </div>
     )
     const contentChat = (
