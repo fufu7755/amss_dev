@@ -287,7 +287,7 @@ img {
   margin: 10px;
   background-color: #7d7d7d;
   text-align: center;
-  padding: 0 30px;
+  padding: 0 20px;
   color: #fff;
   border-radius: 10px;
 }
@@ -901,7 +901,7 @@ h6 {
 .tableSection .tableTop {
   vertical-align: middle;
   text-align: center;
-  padding: 10px;
+  padding: 10px 0;
   border: 2px solid #f5f5f5;
   background-color: #b61d22;
   color: #fff;
