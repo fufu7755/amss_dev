@@ -83,6 +83,10 @@
   height: 90px;
 }
 
+.mobileMain.tabletMain .tableSection .tableTop {
+  height: 75px;
+}
+
 .mobileMain.tabletMain .tableSection .ant-col-4 img {
   height: 45px;
 }

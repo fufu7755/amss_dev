@@ -12,7 +12,6 @@ export default class MobileAmss1 extends React.Component {
       <div id="mobileAmss1" className="mobileMain amss1">
         <MobileHeader pageTitle={"AMSS-1"}></MobileHeader>
         <PCTopSection></PCTopSection>
-        <PCTableSection></PCTableSection>
         <MobileMonitorSection></MobileMonitorSection>
         <MobileFooter></MobileFooter>
       </div>

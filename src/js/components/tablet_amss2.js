@@ -4,6 +4,7 @@ import MobileFooter from './mobile_footer'
 import PCTopSection2 from './pc_top_section2'
 import MobileMonitorSection2 from './mobile_monitor_section2'
 import PCTableSection from './pc_table_section'
+import {Row, Col} from 'antd'
 
 export default class TabletAmss2 extends React.Component {
   render() {
@@ -16,10 +17,18 @@ export default class TabletAmss2 extends React.Component {
           <MobileMonitorSection2></MobileMonitorSection2>
         </div>
         <div className="pageSection">
-          <img src="/src/images/amss2-3.png" alt=""/>
+          <Row>
+            <Col span={20} offset={2}>
+              <img src="/src/images/amss2-3.png" alt=""/>
+            </Col>
+          </Row>
         </div>
         <div className="pageSection even">
-          <img src="/src/images/amss2-4.png" alt=""/>
+          <Row>
+            <Col span={20} offset="2">
+              <img src="/src/images/amss2-4.png" alt=""/>
+            </Col>
+          </Row>
         </div>
         <MobileFooter></MobileFooter>
       </div>

@@ -17,7 +17,7 @@ export default class PCAssm2 extends React.Component {
         <div className="pageSection">
           <div className="container">
             <Row>
-              <Col span={20} offset={2}>
+              <Col span={18} offset={3}>
                 <img src="/src/images/amss2-3.png" alt=""/>
               </Col>
             </Row>
@@ -26,7 +26,7 @@ export default class PCAssm2 extends React.Component {
         <div className="pageSection even">
           <div className="container">
             <Row>
-              <Col span={20} offset="2">
+              <Col span={18} offset="3">
                 <img src="/src/images/amss2-4.png" alt=""/>
               </Col>
             </Row>

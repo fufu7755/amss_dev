@@ -29,7 +29,7 @@ export default class PCMonitorSection extends React.Component {
                     <li>投资人与被投资人收益敏感性自动化测算</li>
                     <li>投资与退出交易结构优化</li>
                     <li>项目投资回报锁定与交易定价</li>
-                    <li>项目投资回报模型锁定与指标规划</li>
+                    <li>可视化分析表单生成</li>
                   </ul>
                 </div>
               </div>

@@ -19,6 +19,7 @@ export default class PCMonitorSection extends React.Component {
             <Col span={20} offset={2}>
               <div className="monitorTitle">
                 <h2>AMSS-1回报测算软件</h2>
+                <h4>与国际接轨 与资本市场对接</h4>
                 <p>通过对购物中心、写字楼、酒店、销售物业、综合体各类物业的现金流预测、NOI静态回报率、IRR动态回报率测算，进行项目投资可行性分析。AMSS－1适用于项目投资、方案设计和建设等阶段。</p>
                 <h6>
                   <strong>该软件包含</strong>

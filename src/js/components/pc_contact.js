@@ -20,7 +20,14 @@ export default class PCContact extends React.Component {
                 <div className="contactForm">
                   <div className="row">
                     <div className="col-8">
-                      <h4><a target="_blank" href="http://www.bridge5asia.com">www.bridge5asia.com</a></h4>
+                      <Row className="m-b-10">
+                        <Col span={4} className="add_img">
+                          <img src="/src/images/hand-click.png" alt=""/>
+                        </Col>
+                        <Col span={16}>
+                          <h4><a target="_blank" href="http://www.bridge5asia.com">www.bridge5asia.com</a></h4>
+                        </Col>
+                      </Row>
                       <Row className="m-b-10">
                       <Col span={4}>
                         地址:

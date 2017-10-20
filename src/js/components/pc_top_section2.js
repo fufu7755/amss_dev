@@ -10,7 +10,7 @@ export default class PCTopSection extends React.Component {
       <div className="topSection">
         <div className="container">
           <Row>
-            <Col span={20} offset={2}>
+            <Col span={16} offset={4}>
               <div className="topSection2">
                 <ul className="topNav">
                   <li>投资</li>

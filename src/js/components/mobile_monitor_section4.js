@@ -17,22 +17,26 @@ export default class PCMonitorSection extends React.Component {
     }
     return (
       <div className="MobileSection">
-        <div className="MoblieMonitorTitle">
-          <h2>AMSS-4 投资审批与风险控制系统</h2>
-          <p>有效优化投资决策流程，通过线上多部门论证假设条件、审批与归档体系充分实现投资决策透明化，并将风险控制融入投资决策过程中。AMSS-4实现了线上投资决策平台化，可大大减少员工的时间与差旅成本。</p>
-          <h6>
-            <strong>该软件包含</strong>
-          </h6>
-          <div className="clearfix">
-            <ul className="listStyle">
-              <li>项目投资审核责权设置 </li>
-              <li>部门间投资假设条件线上论证  </li>
-              <li>投资假设条件线上核准与意见归档  </li>
-              <li>项目投资回报逐级线上审批</li>
-              <li>项目投资回报模型锁定与指标规划</li>
-            </ul>
-          </div>
-        </div>
+        <Row>
+          <Col span={20} offset={2}>
+            <div className="MoblieMonitorTitle">
+              <h2>AMSS-4 投资审批与风险控制系统</h2>
+              <p>有效优化投资决策流程，通过线上多部门论证假设条件、审批与归档体系充分实现投资决策透明化，并将风险控制融入投资决策过程中。AMSS-4实现了线上投资决策平台化，可大大减少员工的时间与差旅成本。</p>
+              <h6>
+                <strong>该软件包含</strong>
+              </h6>
+              <div className="clearfix">
+                <ul className="listStyle">
+                  <li>项目投资审核责权设置 </li>
+                  <li>部门间投资假设条件线上论证  </li>
+                  <li>投资假设条件线上核准与意见归档  </li>
+                  <li>项目投资回报逐级线上审批</li>
+                  <li>项目投资回报模型锁定与指标规划</li>
+                </ul>
+              </div>
+            </div>
+          </Col>
+        </Row>
         <div>
           <div className="MoblieMonitorSection" style={monitorUrl}>
             <img src="../src/images/tv.png" alt=""/>
