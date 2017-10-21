@@ -445,11 +445,21 @@ html{
 }
 
 .mobileMain .tableSection .ant-col-4 img {
-  height: auto;
+  max-width: 100%;
 }
 
 .mobileMain .tableSection .ant-col-4 {
-  height: 90px;
+  padding: 8px;
+  height: 82px;
+}
+
+.mobileMain .tableSection .tableTop h4 {
+  font-size: 12px;
+}
+
+.mobileMain .tableSection .tableTop {
+  height: 79px;
+  padding: 5px 0;
 }
 
 .mobileMain .tableSection .ant-col-4 p {

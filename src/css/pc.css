@@ -886,7 +886,7 @@ h6 {
     vertical-align: middle;
     text-align: center;
     padding: 10px;
-    border: 2px solid #f5f5f5;
+    border: 1px solid #f5f5f5;
     background-color: #fff;
     color: #7d7d7d;
     height: 100px;
@@ -895,7 +895,7 @@ h6 {
 }
 
 .tableSection .ant-col-4 img {
-  height: 60px;
+  max-width: 50%;
 }
 
 .tableSection .ant-col-4 p {
@@ -908,7 +908,7 @@ h6 {
   vertical-align: middle;
   text-align: center;
   padding: 10px 0;
-  border: 2px solid #f5f5f5;
+  border: 1px solid #f5f5f5;
   background-color: #b61d22;
   color: #fff;
   height: 64px;
@@ -919,8 +919,9 @@ h6 {
 }
 
 .tableSection .tableTop p {
-  font-size: 12px;
+  font-size: 11px;
   margin-top: 0;
+  -webkit-transform:scale(0.91);
 }
 
 .addPlus {

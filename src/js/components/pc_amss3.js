@@ -19,7 +19,7 @@ export default class PCAssm3 extends React.Component {
           <div className="container">
             <div className="amss3-img">
               <Row>
-                <Col span={18} offset={3}>
+                <Col span={16} offset={4}>
                   <img src="/src/images/amss3.png" alt=""/>
                 </Col>
               </Row>
@@ -29,7 +29,7 @@ export default class PCAssm3 extends React.Component {
         <div className="pageSection even">
           <div className="container">
             <Row>
-              <Col span={18} offset={3}>
+              <Col span={16} offset={4}>
                 <img src="/src/images/amss-5.png" alt=""/>
               </Col>
             </Row>

@@ -9,7 +9,7 @@ export default class PCTableSection extends React.Component {
       <div className="tableSection">
         <div className="container">
           <Row>
-            <Col span={22} offset={1}>
+            <Col span={20} offset={2}>
               <Row>
                 <Col className="tableTop" span={4}>
                   <h4>AMSS-1</h4>
