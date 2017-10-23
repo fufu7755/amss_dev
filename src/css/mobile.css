@@ -260,7 +260,11 @@ html{
 }
 
 .mobileMain .tableSection table td img {
-  height: 40%;
+  max-width: 60%;
+}
+
+.mobileMain .tableSection table td h4 {
+  font-size: 12px;
 }
 
 #mobile-footer {

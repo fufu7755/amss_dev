@@ -371,14 +371,32 @@ img {
 .tableSection table td {
   vertical-align: middle;
   text-align: center;
-  padding: 10px;
-  border: 1px solid #f5f5f5;
+  padding: 10px 0;
   background-color: #fff;
   color: #7d7d7d;
 }
 
+.tableSection thead td {
+  width: 16.66666%;
+  color: #fff;
+  background-color: #b61d22;
+}
+
 .tableSection table td p {
-  font-size: 12px;
+  font-size: 11px;
+  -webkit-transform: scale(0.91);
+}
+
+.tableSection table td h4 {
+  color: #fff;
+  font-size: 13px;
+}
+
+.tableSection tbody tr td img {
+  max-width: 40%;
+}
+.tableSection tbody tr td p {
+  margin-top: -10px;
 }
 
 .monitorSection {
@@ -901,6 +919,7 @@ h6 {
 .tableSection .ant-col-4 p {
   font-size: 12px;
   margin-top: -10px;
+
 }
 
 
