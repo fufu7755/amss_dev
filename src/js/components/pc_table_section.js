@@ -37,11 +37,11 @@ export default class PCTableSection extends React.Component {
                   </td>
                   <td>
                     <h4>AMSS-5</h4>
-                    <p></p>
+                    <p>资产包管理 + 估值</p>
                   </td>
                   <td>
                     <h4>AMSS-6</h4>
-                    <p></p>
+                    <p>投资+退出 交易结构优化</p>
                   </td>
                 </thead>
                 <tbody>

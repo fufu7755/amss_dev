@@ -1,7 +1,7 @@
 import React from 'react';
 import MobileHeader from './mobile_header'
 import MobileFooter from './mobile_footer'
-import PCTopSection2 from './pc_top_section2'
+import PCTopSection from './pc_top_section'
 import MobileMonitorSection3 from './mobile_monitor_section3'
 import PCTableSection from './pc_table_section'
 import {
@@ -16,7 +16,7 @@ export default class MobileAmss3 extends React.Component {
     return (
       <div id="mobileAmss3" className="mobileMain amss3">
         <MobileHeader pageTitle={"AMSS-3"}></MobileHeader>
-        <PCTopSection2></PCTopSection2>
+        <PCTopSection></PCTopSection>
         <div className="even">
           <MobileMonitorSection3></MobileMonitorSection3>
         </div>

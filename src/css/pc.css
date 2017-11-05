@@ -447,7 +447,6 @@ img {
 
 .monitorTitle {
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .monitorTitle h2 {
@@ -472,7 +471,7 @@ img {
 
 .footer {
   font-size: 14px;
-  color: #b61d22;
+  color: #fff;
   text-align: center;
   padding: 30px 0;
   background-color: #000;
@@ -622,10 +621,9 @@ img {
 .listStyle li {
   margin-right: 5px;
   padding-left: 5px;
-  display: inline-block;
   background-image: url(../images/disc-circle.png);
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: 0 8px;
   background-size: 4px 4px;
 }
 
@@ -973,4 +971,8 @@ h6 {
 .add_img img {
   display: inline-block;
   width: 25px;
+}
+
+.aboutContent p {
+  margin-top: 20px;
 }

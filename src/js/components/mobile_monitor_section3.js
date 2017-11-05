@@ -22,18 +22,17 @@ export default class PCMonitorSection extends React.Component {
             <div className="MoblieMonitorTitle">
               <h2>AMSS-3 经营预算管理+回报再测算软件</h2>
               <p>行业中唯一将经营预算管理与资产管理结合的软件。AMSS-3是市场上唯一实现通过项目投资回报，往年经营差异分析及行业对标三个维度，实现预算编制的软件。在预算编制或执行过程中，随时就预算目标或重大变更进行回报再测算，实现有效回报监控。</p>
-              <h6>
-                该软件包含
-              </h6>
-              <div className="clearfix">
-                <ul className="listStyle">
-                  <li>上年度经营差异分析</li>
-                  <li>下年度收入目标与收入预算编制</li>
-                  <li>下年度经营费用目标与费用预算编制</li>
-                  <li>本年度预算执行监控与分析</li>
-                  <li>资产规划与投资回报再测算</li>
-                </ul>
-              </div>
+              <Row>
+                <Col span={18} offset={3}>
+                  <ul className="listStyle">
+                    <li>上年度经营差异分析</li>
+                    <li>下年度收入目标与收入预算编制</li>
+                    <li>下年度经营费用目标与费用预算编制</li>
+                    <li>本年度预算执行监控与分析</li>
+                    <li>资产规划与投资回报再测算</li>
+                  </ul>
+                </Col>
+              </Row>
             </div>
           </Col>
         </Row>

@@ -290,7 +290,7 @@ html{
 
 .MobileSection p {
   font-size: 12px;
-  text-align: center;
+  text-align: left;
 }
 
 .MoblieMonitorSection {
@@ -383,6 +383,7 @@ html{
   margin-right: 5px;
   padding-left: 5px;
   background-size: 4px 4px;
+  text-align: left;
 }
 
 .MobileSection h6 {

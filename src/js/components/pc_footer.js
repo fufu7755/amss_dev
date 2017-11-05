@@ -10,7 +10,7 @@ export default class PCFooter extends React.Component {
     render() {
         return (
             <div className="footer">
-                Copyright@Bridge5 Asia Pte Ltd 2015.Website by iFoundries.
+                关于晤桥亚洲 Copyright@AMSS ASIA PTE LTD.
             </div>
         );
     };

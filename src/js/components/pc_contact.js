@@ -15,8 +15,6 @@ export default class PCContact extends React.Component {
           <div className="container">
             <Row>
               <Col span={20} offset={2}>
-                <h2>晤桥亚洲</h2>
-                <p>晤桥亚洲是地产界兼具高度和深度的资产管理咨询团队。晤桥亚洲团队结合资本与地产双视角，为企业搭建和优化与国际接轨的资产管理、商业地产投资、开发和运营管理体系，并开发了国际先进的AMSS资产管理软件。晤桥亚洲长期为万科地产、上海地产、宝龙地产、阳光新业、华远地产、高和资本等国内多个地产、金融企业梳理商业地产投资战略，搭建资产管理和经营管理体系，并对一些大型综合体项目进行回报优化操作与指导。晤桥亚洲的客户还包括华平投资（美国）、泰康人寿、华新丽华（台湾）、大中地产等国内外知名地产、金融企业。</p>
                 <div className="contactForm">
                   <div className="row">
                     <div className="col-8">
