@@ -452,7 +452,7 @@ img {
 .monitorTitle h2 {
   font-size: 18px;
   color: #b61d22;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   letter-spacing: 1px;
   text-align: center;
 }
@@ -460,6 +460,7 @@ img {
 .monitorTitle h4  {
   font-size: 16px;
   color: #b61d22;
+  margin-top: -10px;
   margin-bottom: 10px;
   letter-spacing: 1px;
   text-align: center;
