@@ -976,3 +976,15 @@ h6 {
 .aboutContent p {
   margin-top: 20px;
 }
+
+.aboutContent {
+  padding-top: 30px;
+}
+
+.m-t-10 {
+  margin-top: 8px;
+}
+
+.m-t-6 {
+  margin-top: 5px;
+}

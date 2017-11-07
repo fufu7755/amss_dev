@@ -18,7 +18,7 @@ export default class PCContact extends React.Component {
                 <div className="contactForm">
                   <div className="row">
                     <div className="col-8">
-                      <Row className="m-b-10">
+                      <Row className="m-t-10">
                         <Col span={4} className="add_img">
                           <img src="/src/images/hand-click.png" alt=""/>
                         </Col>
@@ -26,7 +26,7 @@ export default class PCContact extends React.Component {
                           <h4><a target="_blank" href="http://www.bridge5asia.com">www.bridge5asia.com</a></h4>
                         </Col>
                       </Row>
-                      <Row className="m-b-10">
+                      <Row className="m-t-6">
                       <Col span={4}>
                         地址:
                       </Col>
@@ -34,7 +34,7 @@ export default class PCContact extends React.Component {
                          <p>One Fullerton, 1 Fullerton Road, #02-01, Singapore 049213</p>
                        </Col>
                       </Row>
-                      <Row className="m-b-10">
+                      <Row className="m-t-6">
                         <Col span={4}>
                           电话:
                         </Col>
@@ -44,7 +44,7 @@ export default class PCContact extends React.Component {
                           <p>(86) 136 7006 7157</p>
                         </Col>
                       </Row>
-                      <Row className="m-b-10">
+                      <Row className="m-t-6">
                         <Col span={4}>
                           传真:
                         </Col>
@@ -52,7 +52,7 @@ export default class PCContact extends React.Component {
                           <p>(65) 6408 3801 </p>
                         </Col>
                       </Row>
-                      <Row className="m-b-10">
+                      <Row className="m-t-6">
                         <Col span={4}>
                           邮箱:
                         </Col>
