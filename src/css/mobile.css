@@ -380,6 +380,10 @@ html{
   font-size: 12px;
 }
 
+.MobileSection .listStyle {
+  border: none;
+}
+
 .MobileSection .listStyle li {
   margin-right: 5px;
   padding-left: 5px;
