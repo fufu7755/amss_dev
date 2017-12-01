@@ -1,4 +1,6 @@
-import React, {Component} from 'react'
+import React, {
+  Component
+} from 'react'
 import ReactDOM from 'react-dom'
 import {
   Form,
@@ -11,13 +13,20 @@ import {
 } from 'antd'
 import axios from 'axios'
 const FormItem = Form.Item
-const {TextArea} = Input
+const {
+  TextArea
+} = Input
 
 const apiUrl = "http://localhost:3000"
 
 const openNotification = (message, description) => {
-  notification.config({placement: 'bottomRight'})
-  notification.open({message: message, description: description});
+  notification.config({
+    placement: 'bottomRight'
+  })
+  notification.open({
+    message: message,
+    description: description
+  });
 };
 
 class ContactForm extends React.Component {
@@ -36,7 +45,9 @@ class ContactForm extends React.Component {
 
   handleLoadingState(loading) {
     //Set loading flag
-    this.setState({loading: loading});
+    this.setState({
+      loading: loading
+    });
   }
 
   handleSubmit(e) {
@@ -56,7 +67,13 @@ class ContactForm extends React.Component {
           if (res.data.success) {
             //If the response from MailChimp is good...
             openNotification('提交成功!', '已成功提交您的信息!')
-            this.setState({email: '', name: '', phone: '', title: '', msg: ''})
+            this.setState({
+              email: '',
+              name: '',
+              phone: '',
+              title: '',
+              msg: ''
+            })
             this.props.form.resetFields()
             this.handleLoadingState(false)
           } else {
@@ -74,7 +91,9 @@ class ContactForm extends React.Component {
   }
 
   render() {
-    const {getFieldDecorator} = this.props.form
+    const {
+      getFieldDecorator
+    } = this.props.form
     return (
       <div>
         <Form onSubmit={this.handleSubmit.bind(this)}>
