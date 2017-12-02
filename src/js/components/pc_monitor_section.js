@@ -5,7 +5,7 @@ export default class PCMonitorSection extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      monitorUrl: '/src/images/amss1/amss1-2.png'
+      monitorUrl: '/src/images/amss1/amss1-3.png'
     };
   }
   render() {
@@ -53,21 +53,21 @@ export default class PCMonitorSection extends React.Component {
                     <tr>
                       <td>
                         <a className="monitorItem monitorItem2"
-                          onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-2.png'})}>
-                          现金流分析
+                          onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-3.png'})}>
+                          投资分析
                         </a>
                       </td>
                       <td>
                         <a className="monitorItem monitorItem1"
-                            onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-1.png'})}>
-                          投资分析
+                          onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-2.png'})}>
+                          现金流分析
                         </a>
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <a className="monitorItem monitorItem3"
-                          onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-3.png'})}>
+                          onMouseOver={() => this.setState({monitorUrl: '/src/images/amss1/amss1-1.png'})}>
                           方案比较
                         </a>
                       </td>
