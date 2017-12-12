@@ -1,16 +1,22 @@
 import React from 'react';
 
 export default class PCFooter extends React.Component {
-    constructor(){
+    constructor() {
         super();
-        this.state ={
+        this.state = {
             current: 'top'
         }
     }
     render() {
         return (
             <div className="footer">
-                关于晤桥亚洲 Copyright@AMSS ASIA PTE LTD.
+                <p>
+                    <a href="http://www.bridge5asia.com" target="_blank">关于晤桥亚洲</a>
+                </p>
+                <p>
+                    Copyright@AMSS ASIA PTE LTD.
+                </p>
+                
             </div>
         );
     };
