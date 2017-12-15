@@ -13,7 +13,7 @@ export default class PCFooter extends React.Component {
                 <p>
                     <a href="http://www.bridge5asia.com" target="_blank">关于晤桥亚洲</a>
                 </p>
-                <p>
+                <p className="copyright">
                     Copyright@AMSS ASIA PTE LTD.
                 </p>
                 
