@@ -1,6 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Carousel, Popover, Icon, Row, Col} from 'antd'
+import {
+  Carousel,
+  Popover,
+  Icon,
+  Row,
+  Col
+} from 'antd'
 import {
   NavLink
 } from 'react-router-dom'
@@ -33,7 +39,7 @@ export default class PCHeader extends React.Component {
             邮箱
           </Col>
           <Col span={18}>
-            <p><a href="mailto: amss@amssasia.com.cn">amss@amssasia.com.cn</a></p>
+            <p>amss@amssasia.com.cn</p>
           </Col>
         </Row>
       </div>

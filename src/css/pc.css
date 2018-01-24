@@ -656,6 +656,7 @@ img {
 .listStyle6 {
   padding: 14px 25px;
   margin-left: 65px;
+  list-style: none;
 }
 
 .text-center {
@@ -843,6 +844,10 @@ h6 {
 
 .ant-popover-placement-left > .ant-popover-content > .ant-popover-arrow:after, .ant-popover-placement-leftTop > .ant-popover-content > .ant-popover-arrow:after, .ant-popover-placement-leftBottom > .ant-popover-content > .ant-popover-arrow:after {
     border-left-color: #e5e5e5;
+}
+
+.ant-popover-arrow {
+  background-color: #e5e5e5;
 }
 
 .content-phone {
