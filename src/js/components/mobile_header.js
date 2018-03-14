@@ -1,6 +1,15 @@
 import React from 'react'
-import {NavLink} from 'react-router-dom'
-import {Icon, Modal, Carousel, Popover, Row, Col} from 'antd';
+import {
+  NavLink
+} from 'react-router-dom'
+import {
+  Icon,
+  Modal,
+  Carousel,
+  Popover,
+  Row,
+  Col
+} from 'antd';
 
 export default class MobileHeader extends React.Component {
   constructor() {
@@ -11,7 +20,9 @@ export default class MobileHeader extends React.Component {
   }
 
   setModalVisible(value) {
-    this.setState({modalVisible: value})
+    this.setState({
+      modalVisible: value
+    })
   }
 
   login() {
@@ -117,13 +128,13 @@ export default class MobileHeader extends React.Component {
 
         <div className="fixed-box">
           <div className="box-item-phone">
-            <Popover placement="leftBottom" content={contentPhone}>
+            <Popover trigger="click" placement="leftBottom" content={contentPhone}>
              <Icon type="phone"></Icon>
             </Popover>
           </div>
           <hr/>
           <div className="box-item-qrcode">
-            <Popover placement="leftTop" content={contentChat}>
+            <Popover trigger="click" placement="leftTop" content={contentChat}>
              <Icon type="qrcode"></Icon>
             </Popover>
           </div>
