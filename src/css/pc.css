@@ -12,6 +12,12 @@ body {
              SimSun, sans-serif;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
 .even {
   background-color: #f5f5f5;
 }
